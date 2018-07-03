@@ -487,5 +487,9 @@
     <integer name="config_radioScanningTimeout">5000</integer>
     
     <!-- Wether device should show software navbar on first boot -->
-    <bool name="config_defaultToNavigationBar">false</bool>
+   <!-- <bool name="config_defaultToNavigationBar">false</bool>-->
+<bool name="config_enableGestureService">true</bool>
+<integer name="config_proximityCheckTimeout">200</integer>
+<bool name="config_multicolorled">false</bool>
+<bool name="config_proximityCheckOnWake">true</bool>
 </resources>
